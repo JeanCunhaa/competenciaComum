@@ -109,14 +109,14 @@
             <br>
             <li><strong>Axioma do Sucessor:</strong> Para cada número natural n, existe um único número natural chamado
               de sucessor de n, denotado por S(n). Isso significa que cada número natural tem um número sucessor.</li>
-              <br>
+            <br>
             <li><strong>Axioma da Injetividade do Sucessor:</strong> Se S(n) = S(m), então n = m. Em outras palavras, a
               função sucessor é injetiva, o que significa que diferentes números naturais têm diferentes sucessores.
             </li>
             <br>
             <li><strong>Axioma da Não Pertinência:</strong> Zero não é o sucessor de nenhum número natural. Ou seja, não
               existe um número natural n tal que S(n) = 0.</li>
-              <br>
+            <br>
             <li><strong>Axioma da Indução:</strong> Se um conjunto de números naturais contém o número zero e também
               contém o sucessor de cada elemento que ele contém, então esse conjunto é igual ao conjunto de todos os
               números naturais. Em outras palavras, o axioma da indução estabelece que qualquer propriedade que é
@@ -230,103 +230,170 @@
               allowfullscreen></iframe>
           </div>
 
-
+          <br>
           <h2>Apresentação axiomática dos números inteiros. Teoria elementar dos números inteiros.</h2>
+          <br>
+          <p>Os números inteiros são um conjunto numérico que inclui os números positivos, negativos e o zero. A
+            apresentação axiomática dos números inteiros é baseada em dois conjuntos: o conjunto dos números naturais
+            (que inclui o zero e os números positivos) e o conjunto dos números inteiros negativos.</p>
 
-          <p>
-            Definição dos números inteiros; Adição e multiplicação no conjunto dos números inteiros; Relação de ordem no
-            conjunto dos números inteiros;
-          </p>
+          <p>A teoria elementar dos números inteiros começa com a definição dos números inteiros como a união dos
+            números naturais com seus correspondentes negativos e o zero. Formalmente, podemos representar os números
+            inteiros como o conjunto Z = {..., -3, -2, -1, 0, 1, 2, 3, ...}.</p>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est
-            lectus
-            rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam
-            semper, dui
-            ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea
-            dictumst.
-            Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam
-            porta
-            ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus
-            consequat
-            justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-          </p>
+          <p>A adição no conjunto dos números inteiros é uma extensão da adição no conjunto dos números naturais. Para
+            adicionar dois números inteiros, podemos considerar os seguintes casos:</p>
+
+          <ul>
+            <li>Se ambos os números são positivos, realizamos a adição normalmente.</li>
+            <br>
+            <li>Se ambos os números são negativos, realizamos a adição dos seus valores absolutos e atribuímos um sinal
+              negativo ao resultado.</li>
+            <br>
+            <li>Se um número é positivo e o outro é negativo, subtraímos o valor absoluto do número negativo do valor
+              absoluto do número positivo. O sinal do resultado será o mesmo do número que tiver o maior valor absoluto.
+            </li>
+
+          </ul>
+          <p>A multiplicação no conjunto dos números inteiros também é uma extensão da multiplicação no conjunto dos
+            números naturais. Para multiplicar dois números inteiros, consideramos as seguintes regras:</p>
+          <ul>
+            <li>O produto de dois números com o mesmo sinal será positivo.</li>
+            <br>
+            <li>O produto de dois números com sinais diferentes será negativo.</li>
+          </ul>
+          <p>A relação de ordem no conjunto dos números inteiros é representada pelo símbolo "&lt;" (menor que) e é uma
+            extensão da relação de ordem no conjunto dos números naturais. Na relação de ordem, temos as seguintes
+            propriedades:</p>
+          <ul>
+            <li>Se a é menor que b (a &lt; b) e b é menor que c (b &lt; c), então a é menor que c (a &lt; c). Isso
+              significa que a relação de ordem é transitiva.</li>
+            <br>
+            <li>Se a é menor que b (a &lt; b), então b é maior que a (b &gt; a). Isso implica que a relação de ordem é
+              inversamente simétrica.</li>
+            <br>
+            <li>Para quaisquer dois números inteiros, a relação de ordem satisfaz exatamente uma das seguintes
+              condições: a &lt; b, a &gt; b ou a = b.</li>
+          </ul>
+          <p>Esses conceitos são fundamentais na teoria elementar dos números inteiros. Eles permitem a compreensão das
+            propriedades e operações aritméticas envolvendo números inteiros, bem como a análise de relações de ordem
+            entre eles.</p>
 
           <div class="video">
             <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
               allowfullscreen></iframe>
           </div>
 
-          <h2>Equações diofantinas lineares</h2>
+          <h2>Algoritmo de Euclides e Equações diofantinas lineares</h2>
 
-          <p>
-            Algoritmo de Euclides; Equações diofantinas lineares;
-          </p>
-
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est
-            lectus
-            rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam
-            semper, dui
-            ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea
-            dictumst.
-            Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam
-            porta
-            ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus
-            consequat
-            justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-          </p>
+          <h3>Algoritmo de Euclides</h3>
+          <p>O Algoritmo de Euclides é um método utilizado para encontrar o máximo divisor comum (MDC) entre dois
+            números inteiros. Ele foi desenvolvido pelo matemático grego Euclides no século III a.C. O algoritmo é
+            baseado na ideia de que o MDC entre dois números não se altera se subtrairmos o menor número do maior
+            repetidamente até que um dos números seja igual a zero. O último número não nulo obtido será o MDC.</p>
+          <p>O Algoritmo de Euclides pode ser aplicado de forma iterativa ou recursiva. Na versão iterativa, começamos
+            com dois números inteiros, digamos <em>a</em> e <em>b</em>, e repetidamente subtraímos o menor número do
+            maior até que um dos números seja igual a zero. O número não nulo resultante será o MDC de <em>a</em> e
+            <em>b</em>.</p>
+          <p>O Algoritmo de Euclides também pode ser estendido para calcular não apenas o MDC, mas também os
+            coeficientes de Bézout. Os coeficientes de Bézout são dois números inteiros <em>x</em> e <em>y</em> tais que
+            <em>ax + by = MDC(a, b)</em>. Essa propriedade é útil na resolução de equações diofantinas lineares.</p>
+          <h3>Equações Diofantinas Lineares</h3>
+          <p>As equações diofantinas lineares são equações polinomiais lineares nas quais as incógnitas são números
+            inteiros. Essas equações são nomeadas em homenagem ao matemático grego Diofanto de Alexandria, que estudou
+            essas equações no século III. O objetivo é encontrar soluções inteiras para essas equações.</p>
+          <p>Uma equação diofantina linear geralmente é escrita na forma <em>ax + by = c</em>, onde <em>a</em>,
+            <em>b</em> e <em>c</em> são números inteiros conhecidos, e <em>x</em> e <em>y</em> são as incógnitas que
+            buscamos determinar. A resolução dessas equações envolve o uso do Algoritmo de Euclides estendido para
+            encontrar o MDC entre <em>a</em> e <em>b</em>. Se o MDC de <em>a</em> e <em>b</em> divide <em>c</em>, então
+            a equação tem soluções inteiras. Caso contrário, não há solução.</p>
+          <p>A partir do Algoritmo de Euclides estendido, podemos encontrar os coeficientes de Bézout <em>x</em> e
+            <em>y</em>, que nos fornecem uma solução particular da equação diofantina. A partir dessa solução
+            particular, podemos gerar outras soluções adicionando um múltiplo da relação entre <em>b</em> e o
+            MDC(<em>a</em>, <em>b</em>) a <em>x</em> e subtraindo um múltiplo da relação entre <em>a</em> e o
+            MDC(<em>a</em>, <em>b</em>) a <em>x</em> e subtraindo um múltiplo da relação entre <em>a</em> e o
+            MDC(<em>a</em>, <em>b</em>) de <em>y</em>.</p>
+          <p>As equações diofantinas lineares têm aplicações em várias áreas, como criptografia, teoria dos números,
+            otimização e sistemas lineares com restrições inteiras.</p>
 
           <div class="video">
             <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
               allowfullscreen></iframe>
           </div>
-
+          <br>
           <h2>Congruências. Congruências lineares. Sistemas de congruências</h2>
 
-          <p>
-            Congruências; Congruências lineares; Sistemas de congruências, Teorema Chinês do Resto;
-          </p>
+          <blockquote>
+            <p>Congruências são uma parte importante da teoria dos números e envolvem a relação de equivalência entre
+              números em relação a um determinado módulo. Uma congruência é uma relação entre dois números inteiros
+              quando a diferença entre eles é divisível pelo módulo em questão. A congruência é denotada pelo símbolo de
+              três linhas paralelas: ≡.</p>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est
-            lectus
-            rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam
-            semper, dui
-            ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea
-            dictumst.
-            Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam
-            porta
-            ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus
-            consequat
-            justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-          </p>
+            <p>Uma congruência é escrita na forma <code>a ≡ b (mod m)</code>, onde "a" e "b" são números inteiros e "m"
+              é o módulo. Isso significa que "a" e "b" têm o mesmo resto quando divididos por "m". Por exemplo, se
+              <code>a ≡ b (mod 5)</code>, isso indica que "a" e "b" deixam o mesmo resto quando divididos por 5.</p>
+
+            <p>Congruências lineares são uma forma específica de congruências em que tanto "a" quanto "b" são expressos
+              como combinações lineares de variáveis. Uma congruência linear tem a forma <code>ax ≡ b (mod m)</code>,
+              onde "a", "b", "x" e "m" são números inteiros. O objetivo é encontrar soluções inteiras para a variável
+              "x" que satisfaçam a congruência.</p>
+
+            <p>Sistemas de congruências envolvem várias congruências simultaneamente. Um sistema de congruências é um
+              conjunto de congruências lineares que devem ser satisfeitas simultaneamente. Por exemplo, um sistema de
+              congruências pode ter a forma:</p>
+
+            <pre>
+              x ≡ a (mod m)
+              x ≡ b (mod n)
+            </pre>
+
+
+            <p>O Teorema Chinês do Resto é uma importante ferramenta na resolução de sistemas de congruências. Ele
+              afirma que, se os módulos "m" e "n" forem primos entre si (ou seja, não têm fatores primos em comum),
+              então existe uma solução única (módulo "mn") para o sistema de congruências. Em outras palavras, é
+              possível encontrar um número "x" que satisfaça simultaneamente todas as congruências do sistema.</p>
+
+            <p>O Teorema Chinês do Resto fornece uma maneira eficiente de resolver sistemas de congruências e tem
+              aplicações em criptografia, teoria dos números, teoria dos polinômios e computação modular. Ele é usado,
+              por exemplo, no algoritmo RSA para a criptografia de chave pública.</p>
+
+            <p>Em resumo, as congruências, congruências lineares, sistemas de congruências e o Teorema Chinês do Resto
+              são conceitos importantes na teoria dos números, permitindo resolver problemas envolvendo relações de
+              equivalência entre números e encontrar soluções inteiras para sistemas de equações modulares.</p>
+          </blockquote>
 
           <div class="video">
             <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
               allowfullscreen></iframe>
           </div>
 
-
+          <br>
           <h2>Construção dos números racionais. Operações com números racionais. Relação de ordem.</h2>
 
-          <p>
-            Conjunto dos números racionais; Operações com números racionais; Relação de ordem;
-          </p>
+          <p>O conjunto dos números racionais é um conjunto numérico que engloba todos os números que podem ser
+            expressos como uma fração, ou seja, como a divisão de dois números inteiros. Os números racionais são
+            representados na forma a/b, onde "a" e "b" são números inteiros e "b" é diferente de zero. Por exemplo, 1/2,
+            -3/4 e 5/1 são todos números racionais.</p>
+            
+          <p>As operações com números racionais são as mesmas operações básicas realizadas com outros conjuntos
+            numéricos, como adição, subtração, multiplicação e divisão. Para adicionar ou subtrair números racionais, é
+            necessário encontrar um denominador comum entre as frações e, em seguida, realizar a operação com os
+            numeradores. Na multiplicação e divisão de números racionais, as frações podem ser simplificadas antes de
+            realizar as operações.</p>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est
-            lectus
-            rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam
-            semper, dui
-            ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea
-            dictumst.
-            Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam
-            porta
-            ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus
-            consequat
-            justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-          </p>
+          <p>A relação de ordem nos números racionais é definida pela comparação dos valores numéricos. Dois números
+            racionais podem ser iguais, maiores ou menores. Para comparar números racionais, é necessário levar em
+            consideração tanto o numerador quanto o denominador das frações. Por exemplo, 1/2 é menor do que 3/4, pois 1
+            está mais próximo de zero do que 3 e 2 está mais distante de zero do que 4.</p>
+
+          <p>Além das operações básicas e da relação de ordem, os números racionais possuem propriedades importantes,
+            como a comutatividade, associatividade e distributividade das operações. Essas propriedades permitem
+            manipular e simplificar expressões envolvendo números racionais.</p>
+
+          <p>Os números racionais têm diversas aplicações na matemática e em outras áreas, como física, economia e
+            engenharia. Eles são utilizados para representar quantidades fracionárias, proporções, taxas de variação e
+            muitos outros conceitos. O estudo dos números racionais é fundamental para o desenvolvimento do raciocínio
+            matemático e para a compreensão de diversos fenômenos quantitativos.</p>
 
           <div class="video">
             <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
