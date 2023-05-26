@@ -35,154 +35,303 @@
 
   <!-- Container para exibir as atividades -->
   <div id="atividadeContainer">
-    <h2>Conjuntos</h2>
 
-    <p>
-      Definição; União e interseção de conjuntos; Produto cartesiano;
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est lectus
-      rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam semper, dui
-      ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea dictumst.
-      Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam porta
-      ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus consequat
-      justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-    </p>
+    <h2>Notações para representar conjuntos:</h2>
+    <ul>
+      <li>
+        Notação de Extensão: Nessa notação, listamos todos os elementos do conjunto entre chaves. Por exemplo: <br>
+        A = {1, 2, 3, 4, 5} é um conjunto que contém os números inteiros de 1 a 5.
+      </li>
+      <br>
+      <li>
+        Notação de Compreensão: Nessa notação, descrevemos as propriedades que os elementos do conjunto devem ter. Por
+        exemplo: <br>
+        B = {x | x é um número par e x < 10} é um conjunto que contém todos os números pares menores que 10. </li> </ul>
+          <h2>Operações com conjuntos:</h2>
+          <ul>
+            <li>
+              União: A união de dois conjuntos, denotada por "∪", consiste em combinar todos os elementos presentes em
+              ambos os conjuntos, sem repetições. Por exemplo: <br>
+              Seja A = {1, 2, 3} e B = {3, 4, 5}. A união de A e B é A ∪ B = {1, 2, 3, 4, 5}.
+            </li>
+            <br>
+            <li>
+              Interseção: A interseção de dois conjuntos, denotada por "∩", consiste em encontrar os elementos comuns a
+              ambos os conjuntos. Por exemplo: <br>
+              Seja C = {1, 2, 3} e D = {3, 4, 5}. A interseção de C e D é C ∩ D = {3}.
+            </li>
+            <br>
+            <li>
+              Diferença: A diferença entre dois conjuntos, denotada por " \ " ou "-", consiste em encontrar os elementos
+              presentes em um conjunto, mas ausentes no outro. Por exemplo: <br>
+              Seja E = {1, 2, 3} e F = {3, 4, 5}. A diferença de E e F é E \ F = {1, 2}.
+            </li>
+          </ul>
+          <p>Essas são apenas algumas das operações que podemos realizar com conjuntos. Além disso, existem outras
+            operações mais avançadas, como a diferença simétrica e o produto cartesiano.</p>
 
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
-        allowfullscreen></iframe>
-    </div>
+          <h2>Produto Cartesiano</h2>
+          <p>O produto cartesiano é uma operação entre dois conjuntos que resulta em um novo conjunto. Esse conjunto
+            contém todos os pares ordenados possíveis, onde o primeiro elemento do par é escolhido do primeiro conjunto
+            e o segundo elemento do par é escolhido do segundo conjunto.</p>
+          <p>Vamos supor que temos dois conjuntos A e B:</p>
+          <ul>
+            <li>A = {1, 2}</li>
+            <li>B = {a, b, c}</li>
+          </ul>
+          <p>O produto cartesiano entre A e B, denotado por A × B, será o conjunto de todos os pares ordenados
+            possíveis, onde o primeiro elemento vem de A e o segundo elemento vem de B:</p>
+          <p>A × B = {(1, a), (1, b), (1, c), (2, a), (2, b), (2, c)}</p>
+          <p>Neste exemplo, o conjunto A tem dois elementos e o conjunto B tem três elementos, então o produto
+            cartesiano entre eles resulta em um conjunto com 2 x 3 = 6 elementos.</p>
+          <p>É importante notar que a ordem dos elementos nos pares ordenados é relevante. Por exemplo, (1, a) é
+            diferente de (a, 1). Além disso, se um dos conjuntos for vazio, o produto cartesiano resultará em um
+            conjunto vazio, pois não haverá pares possíveis.</p>
+          <p>O produto cartesiano é uma operação fundamental em matemática e é utilizado em diversas áreas, como teoria
+            dos conjuntos, geometria, álgebra e análise combinatória. Ele permite explorar as relações entre os
+            elementos de dois conjuntos e é útil para construir representações e estruturas mais complexas.</p>
 
-
-    <br>
-
-    <h2>Apresentação axiomática dos números naturais: axiomas de Peano</h2>
-    <p>
-      Axiomas de Peano
-    </p>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est lectus
-      rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam semper, dui
-      ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea dictumst.
-      Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam porta
-      ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus consequat
-      justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-    </p>
-    <p>
-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est lectus
-      rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam semper, dui
-      ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea dictumst.
-      Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam porta
-      ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus consequat
-      justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-    </p>
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
-        allowfullscreen></iframe>
-    </div>
-
-
-    <h2>Teoria elementar dos números naturais</h2>
-
-    <p>
-      Teoria elementar dos números naturais: operações sobre o conjunto dos números naturais, somatórios, produtórios,
-      divisibilidade, máximo divisor comum, mínimo múltiplo comum, números primos, ordenação e indução matemática.
-      Teoremas fundamentais.
-    </p>
-
-    <p>
-      Operações sobre o conjunto dos números naturais; Somatórios e produtórios; Divisibilidade e números primos; Máximo divisor comum e mínimo múltiplo comum; Ordenação e indução matemática;
-    </p>
-
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
-        allowfullscreen></iframe>
-    </div>
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
+              allowfullscreen></iframe>
+          </div>
 
 
-    <h2>Apresentação axiomática dos números inteiros. Teoria elementar dos números inteiros.</h2>
-    
-    <p>
-      Definição dos números inteiros; Adição e multiplicação no conjunto dos números inteiros; Relação de ordem no conjunto dos números inteiros;
-    </p>
+          <br>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est lectus
-      rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam semper, dui
-      ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea dictumst.
-      Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam porta
-      ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus consequat
-      justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-    </p>
+          <h2>Axiomas de Peano</h2>
+          <p>Os axiomas de Peano são um conjunto de cinco axiomas que estabelecem as propriedades fundamentais dos
+            números naturais. Esses axiomas foram propostos por Giuseppe Peano, um matemático italiano, no final do
+            século XIX. Eles fornecem uma base axiomática para a construção dos números naturais.</p>
+          <p>Vou apresentar os cinco axiomas de Peano:</p>
+          <ol>
+            <li><strong>Axioma da Existência:</strong> O número zero (0) é um número natural.</li>
+            <br>
+            <li><strong>Axioma do Sucessor:</strong> Para cada número natural n, existe um único número natural chamado
+              de sucessor de n, denotado por S(n). Isso significa que cada número natural tem um número sucessor.</li>
+              <br>
+            <li><strong>Axioma da Injetividade do Sucessor:</strong> Se S(n) = S(m), então n = m. Em outras palavras, a
+              função sucessor é injetiva, o que significa que diferentes números naturais têm diferentes sucessores.
+            </li>
+            <br>
+            <li><strong>Axioma da Não Pertinência:</strong> Zero não é o sucessor de nenhum número natural. Ou seja, não
+              existe um número natural n tal que S(n) = 0.</li>
+              <br>
+            <li><strong>Axioma da Indução:</strong> Se um conjunto de números naturais contém o número zero e também
+              contém o sucessor de cada elemento que ele contém, então esse conjunto é igual ao conjunto de todos os
+              números naturais. Em outras palavras, o axioma da indução estabelece que qualquer propriedade que é
+              verdadeira para o número zero e também para o sucessor de um número natural será verdadeira para todos os
+              números naturais.</li>
+          </ol>
+          <p>Esses axiomas fornecem uma base sólida para a construção dos números naturais, permitindo-nos desenvolver
+            as propriedades e as operações aritméticas sobre eles. A partir desses axiomas, é possível definir a adição,
+            a multiplicação, a ordem dos números naturais e realizar provas matemáticas sólidas no contexto dos números
+            naturais.</p>
+          <p>Os axiomas de Peano são a base para a teoria dos números naturais e são amplamente utilizados na
+            matemática. Eles ajudam a estabelecer as propriedades básicas dos números naturais, que são a base para a
+            construção de outros conjuntos numéricos, como os números inteiros, racionais, reais e complexos.</p>
 
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
-        allowfullscreen></iframe>
-    </div>
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
+              allowfullscreen></iframe>
+          </div>
+          <br>
 
-    <h2>Equações diofantinas lineares</h2>
-    
-    <p>
-      Algoritmo de Euclides; Equações diofantinas lineares;
-    </p>
-    
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est lectus
-      rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam semper, dui
-      ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea dictumst.
-      Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam porta
-      ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus consequat
-      justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-    </p>
+          <h2>Teoria elementar dos números naturais</h2>
 
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
-        allowfullscreen></iframe>
-    </div>
+          <br>
+          <ol>
+            <li>
+              <strong>Operações sobre o conjunto dos números naturais:</strong> No conjunto dos números naturais,
+              podemos
+              realizar as operações aritméticas básicas, como adição, subtração, multiplicação e divisão. Essas
+              operações têm
+              propriedades bem definidas, como associatividade, comutatividade e distributividade.
+            </li>
+            <br>
+            <li>
+              <strong>Somatórios e produtórios:</strong> Um somatório é uma expressão que representa a adição de vários
+              termos. Por exemplo, a soma dos primeiros n números naturais pode ser representada por
+              &sum;<sub>k=1</sub><sup>n</sup> k. Já um produtório é uma expressão que representa a multiplicação de
+              vários
+              termos. Por exemplo, o produto dos primeiros n números naturais pode ser representado por
+              &prod;<sub>k=1</sub><sup>n</sup> k.
+            </li>
+            <br>
+            <li>
+              <strong>Divisibilidade:</strong> A divisibilidade é uma propriedade dos números naturais que indica se um
+              número
+              é divisível por outro. Por exemplo, dizemos que um número a é divisível por um número b se a pode ser
+              expresso
+              como o produto de b por outro número natural. Essa propriedade está relacionada com os conceitos de
+              múltiplos e
+              divisores.
+            </li>
+            <br>
+            <li>
+              <strong>Máximo divisor comum:</strong> O máximo divisor comum (MDC) de dois ou mais números naturais é o
+              maior
+              número natural que divide todos eles de forma exata, ou seja, sem deixar resto. Por exemplo, o MDC de 12 e
+              18 é
+              6, pois 6 divide tanto 12 quanto 18 sem deixar resto, e não existe outro número maior que também tenha
+              essa
+              propriedade.
+            </li>
+            <br>
+            <li>
+              <strong>Mínimo múltiplo comum:</strong> O mínimo múltiplo comum (MMC) de dois ou mais números naturais é o
+              menor
+              número natural que é múltiplo de todos eles. Por exemplo, o MMC de 4 e 6 é 12, pois 12 é o menor número
+              que é
+              múltiplo tanto de 4 quanto de 6.
+            </li>
+            <br>
+            <li>
+              <strong>Números primos:</strong> Os números primos são números naturais maiores que 1 que possuem apenas
+              dois
+              divisores: 1 e o próprio número. Por exemplo, 2, 3, 5, 7 são números primos. Os números compostos são
+              aqueles
+              que têm mais de dois divisores, ou seja, são divisíveis por números além de 1 e o próprio número.
+            </li>
+            <br>
+            <li>
+              <strong>Ordenação:</strong> Os números naturais podem ser ordenados de forma crescente ou decrescente. A
+              relação
+              de ordem nos números naturais é representada pelo símbolo "&lt;" (menor que). Por exemplo, dizemos que 2
+              &lt; 5,
+              pois 2 é menor que 5.
+            </li>
+            <br>
+            <li>
+              <strong>Indução matemática:</strong> A indução matemática é um método utilizado para provar proposições
+              sobre
+              números naturais. Consiste em estabelecer dois passos: o caso base, em que a proposição é provada para o
+              número
+              natural mais simples (geralmente o 0 ou 1), e o passo de indução, em que é mostrado que se a proposição é
+              válida
+              para um número natural, então ela também é válida para o próximo número natural. Dessa forma, é possível
+              estender a validade da proposição para todos os números naturais.
+            </li>
+            <br>
+            <li>
+              <strong>Teoremas fundamentais:</strong> Existem diversos teoremas fundamentais na teoria dos números
+              naturais.
+              Alguns exemplos incluem o Teorema Fundamental da Aritmética, que estabelece que todo número natural maior
+              que 1
+              pode ser fatorado em um produto único de números primos, e o Teorema de Euclides, que descreve o algoritmo
+              para
+              encontrar o máximo divisor comum entre dois números naturais.
+            </li>
+          </ol>
 
-    <h2>Congruências. Congruências lineares. Sistemas de congruências</h2>
-    
-    <p>
-      Congruências; Congruências lineares; Sistemas de congruências, Teorema Chinês do Resto;
-    </p>
-    
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est lectus
-      rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam semper, dui
-      ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea dictumst.
-      Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam porta
-      ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus consequat
-      justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-    </p>
 
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
-        allowfullscreen></iframe>
-    </div>
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
+              allowfullscreen></iframe>
+          </div>
 
 
-    <h2>Construção dos números racionais. Operações com números racionais. Relação de ordem.</h2>
-    
-    <p>
-      Conjunto dos números racionais; Operações com números racionais; Relação de ordem;
-    </p>
-    
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est lectus
-      rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam semper, dui
-      ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea dictumst.
-      Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam porta
-      ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus consequat
-      justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
-    </p>
+          <h2>Apresentação axiomática dos números inteiros. Teoria elementar dos números inteiros.</h2>
 
-    <div class="video">
-      <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
-        allowfullscreen></iframe>
-    </div>
+          <p>
+            Definição dos números inteiros; Adição e multiplicação no conjunto dos números inteiros; Relação de ordem no
+            conjunto dos números inteiros;
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est
+            lectus
+            rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam
+            semper, dui
+            ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea
+            dictumst.
+            Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam
+            porta
+            ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus
+            consequat
+            justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
+          </p>
+
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
+              allowfullscreen></iframe>
+          </div>
+
+          <h2>Equações diofantinas lineares</h2>
+
+          <p>
+            Algoritmo de Euclides; Equações diofantinas lineares;
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est
+            lectus
+            rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam
+            semper, dui
+            ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea
+            dictumst.
+            Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam
+            porta
+            ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus
+            consequat
+            justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
+          </p>
+
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
+              allowfullscreen></iframe>
+          </div>
+
+          <h2>Congruências. Congruências lineares. Sistemas de congruências</h2>
+
+          <p>
+            Congruências; Congruências lineares; Sistemas de congruências, Teorema Chinês do Resto;
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est
+            lectus
+            rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam
+            semper, dui
+            ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea
+            dictumst.
+            Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam
+            porta
+            ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus
+            consequat
+            justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
+          </p>
+
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
+              allowfullscreen></iframe>
+          </div>
+
+
+          <h2>Construção dos números racionais. Operações com números racionais. Relação de ordem.</h2>
+
+          <p>
+            Conjunto dos números racionais; Operações com números racionais; Relação de ordem;
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, felis nec lacinia blandit, est
+            lectus
+            rhoncus risus, sit amet lobortis turpis mi eu arcu. Donec blandit vehicula urna id condimentum. Nullam
+            semper, dui
+            ac vehicula lacinia, lacus quam dignissim nisl, ut pretium erat risus id leo. In hac habitasse platea
+            dictumst.
+            Integer venenatis egestas condimentum. Proin tincidunt non neque vitae malesuada. Fusce eget lorem eu quam
+            porta
+            ullamcorper. Etiam sem dui, egestas vel tellus a, maximus iaculis sem. Ut a porttitor augue. Vivamus
+            consequat
+            justo id velit blandit molestie. Sed non massa gravida, lobortis libero aliquam, dapibus nibh.
+          </p>
+
+          <div class="video">
+            <iframe src="https://www.youtube.com/embed/zKAAFsovtM4" frameborder="0" width="720" height="315"
+              allowfullscreen></iframe>
+          </div>
 
   </div>
 
